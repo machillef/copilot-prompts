@@ -30,7 +30,7 @@ This PRD **is the single source of truth** for GitHub Copilot or any LLM generat
 * It's mandatory that *nothing* gets saved in the application or server. Everything should be stored in memory.
 * All user data, uploaded resumes and summary/issues should not be stored. Everything should be anonymous and transient.
 * Keep nothing for storage.
-* Always try and implement big changes in batches and test the application before moving forward. Its essential to not break existing functionality
+* Always try and implement big changes in batches and test the application before moving forward. It's essential to not break existing functionality
 * Use `FastAPI` for the web service, with typed endpoints and auto‑generated OpenAPI docs.
 * Always git commit after completing a task or feature, with a clear message.
 * Simple unit tests for the parsing logic and web endpoints.

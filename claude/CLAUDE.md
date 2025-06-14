@@ -1,3 +1,21 @@
+# Project Development Guide
+
+## Available Slash Commands (Global)
+
+- `/create-prd` - Generate a Product Requirements Document with guided questions
+- `/create-tasklist` - Convert a PRD into a structured task list for implementation
+- `/work-tasks` - Manage and work through task lists one sub-task at a time
+
+*Note: These commands are available globally from ~/.claude/commands/*
+
+## Project Structure
+
+```
+/tasks/                     # All PRD and task-related files
+  ├── prd-[feature-name].md # Generated PRD documents
+  └── [feature-name]/       # Feature-specific directories
+      └── tasks-[feature-name].md # Task lists for implementation
+```
 
 ## Role & Mindset
 
